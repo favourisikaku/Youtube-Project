@@ -1,0 +1,165 @@
+
+body{
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+}          
+.photo{
+  width: 300px;
+  cursor: pointer;
+}  
+.photo{
+  border-radius: 12px;
+}
+.title{
+  font-weight: bold;
+  cursor: pointer;
+}           
+.icon{
+ display:inline-block ;
+ width: 36px;
+ border-radius:18px;              
+}
+.channel-title{
+  display: inline-block;
+  vertical-align: top      
+} 
+.description{
+  display: inline-block;
+  width: 260px;        
+}
+.video-preview{  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 130px;
+  padding-left: 220px;    
+} 
+.all-navbar{
+  margin-bottom: 30px;
+  background-color: ;
+  position: fixed;
+  background-color: white;
+  top: 0%
+}     
+.navbar{      
+  background-color: ;      
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.left-navbar{
+  background-color: ;
+  display: flex;
+  align-items: center;
+  width: 200px        
+}
+.menu{
+  width: 38px;
+  padding-left: 10px;
+  padding-right: 10px   
+}
+.logo{
+  width:110px
+}    
+.middle-navbar{
+  background-color:;
+  display: flex;
+  flex: 1; 
+  align-items: center;
+  justify-content: center
+}
+.search{  
+  height: 34px;
+  border-radius: 17px 0px 0px 17px;
+  border-style: solid;
+  border: 1px solid #ccc;
+  width:500px;
+}
+.search-button{
+  width:60px;
+  height: 40px;
+  border-radius: 0px 20px 20px 0px;
+  margin-left: -30px;
+  border-width: 1px;
+  border: 1px solid #ccc;  
+  cursor: pointer;   
+}
+.search-icon{
+  width:50px; 
+}
+.voice-button{
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 10px;
+  border-style:none;
+  cursor: pointer;
+}
+.voice-icon{
+  width: 26px;
+  margin-top: 4px
+}
+.right-navbar{
+  background-color:;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.more{
+  width: 42px;
+  
+}
+.notification{
+  width: 34px;
+  
+}
+.profile{
+  margin-right: 10px;
+  width:30px;
+  border-radius: 50%
+
+}
+.filter{
+  display: flex;
+  margin-left: 200px;
+  width: 1150px;
+  margin-top:15px;
+  overflow-y: scroll
+}
+.recommendation{
+  flex:1;
+  padding: 8px;
+  margin-left:10px;
+  border-radius: 6px;
+  border-style:none;
+  cursor: pointer;
+  background-color: rgb(236, 231, 231);  
+}
+.recommendation:hover{
+  background-color: black;
+  color:white;
+}
+.sidebar{
+  position: fixed;
+  background-color: ;
+  width: 200px;
+  bottom: 0%;
+  height: 88%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sidebar div{
+  border-bottom: 1px solid rgb(236, 233, 233);
+  cursor: pointer;
+}
+.sidebar-items:hover {
+  background-color: rgb(236, 231, 231)
+}
+.sidebar img{
+  width: 50px;
+}
+.search::placeholder{
+  padding: 10px;
+  font-size: 16px;
+}
